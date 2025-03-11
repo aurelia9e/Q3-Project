@@ -1,5 +1,6 @@
 body {
 	background-image: url(background.webp);
+	backgroun-size: 1500px;
 	color: black;
 	font-family: monospace;
 }

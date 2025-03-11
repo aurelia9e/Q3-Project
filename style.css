@@ -1,5 +1,5 @@
 body {
-	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.moneymax.ph%2Flifestyle%2Farticles%2Fguide-mrt-station&psig=AOvVaw3A08xjcqWlrldmB51iGtuJ&ust=1741783719829000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOic9pCIgowDFQAAAAAdAAAAABAE);
+	background-image: url();
 	color: black;
 	font-family: monospace;
 }
@@ -25,7 +25,7 @@ h1 {
 }
 
 .card-body{
-	background-color: yellow;
+	background-color: #4a4e69;
 	color: white;
 	font-family: serif;
 }

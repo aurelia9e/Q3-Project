@@ -1,5 +1,5 @@
 body {
-	background-image: url(background.webp);
+	background-image: url(photo.webp);
 	background-size: 1500px;
 	color: black;
 	font-family: monospace;
@@ -236,3 +236,4 @@ img {
 	font-family: sans-serif;
 	border-radius: 50px;
 }
+

@@ -1,6 +1,6 @@
 body {
 	background-image: url(background.webp);
-	backgroun-size: 1500px;
+	background-size: 1500px;
 	color: black;
 	font-family: monospace;
 }
@@ -8,6 +8,25 @@ body {
 h1 {
 	font-family: monospace;
 	margin-top: 10px;
+}
+
+p {
+	font-family: sans-serif;
+	text-align: left;
+}
+
+h3 {
+	font-family: monospace;
+	text-align: center;
+	background-color: #ccc5b9;
+	color: #4a4e69;
+	box-shadow: -1px 1px 26px -1px rgba(59,42,15,0.75);
+}
+
+h5 {
+	margin-top: 13px;
+	font-family: sans-serif;
+	font-size: 15px;
 }
 
 .genericlogo {
@@ -26,13 +45,15 @@ h1 {
 }
 
 .card-body{
-	background-color: yellow;
+	background-color: #ccc5b9;
 	color: white;
 	font-family: serif;
+	width: 200px;
 }
 
 .card {
 	color: white;
+	width: 200px;
 
 }
 
@@ -43,6 +64,7 @@ h1 {
 	background-color: #4a4e69;
 	color:whitesmoke;
 	margin-bottom: 10px;
+}
 
 .d{
 	max-width: 500px;
@@ -71,7 +93,7 @@ h1 {
   float: right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-right: 16px;
   font-size: 17px;
 }
@@ -80,7 +102,7 @@ h1 {
   float: right;
   padding: 6px;
   border: none;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-right: 16px;
   font-size: 17px;
 }
@@ -89,12 +111,15 @@ h1 {
 }
 
 .container3{
-	background-color: black;
+	background-color: whitesmoke;
 	margin-top: 10px;
 	padding-left: 20px;
 	padding-top: 10px;
-	color: #F7E8A4;
+	color: #778da9;
 	align-content: center;
+	align-self: center;
+	box-shadow: -1px 1px 26px -4px rgba(59,42,15,0.75);
+
 }
 
 .color {
@@ -115,7 +140,7 @@ h1 {
 	align-self: center;
 }
 .container-fluid {
-	background-color: #33A1FD;
+	background-color: #778da9;
 	margin-top: 5px;
 	align-content: center;
 	padding-right: 20px;
@@ -133,8 +158,13 @@ h1 {
 
 .c {
 	float: right;
-	height: 50%;
-	box-shadow: 5px 5px #E76F51;
+	height: 60%;
+	width: 40%;
+	box-shadow: -3px 0px 77px -7px rgba(0,0,0,0.75);
+	margin-left: 400px;
+	margin-right: 30px;
+	border-radius: 10px;
+
 
 }
 img {
@@ -143,7 +173,7 @@ img {
 }
 
 .topnav {
-  background-color: #84BCDA;
+  background-color: #778da9;
   overflow: hidden;
 }
 
@@ -151,11 +181,12 @@ img {
  float: left;
  display: block;
   color: white;
-  background-color: #84BCDA;
+  background-color: #778da9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-top: 5px;
 }
 
 .card-body {
@@ -163,7 +194,7 @@ img {
 }
 
 .topnav a:hover {
-  background-color: #ECC30B;
+  background-color: #ccc5b9;
   color: black;
 }
 
@@ -175,13 +206,14 @@ img {
 .btn11 {
 	margin-top: 5px;
 	border-radius: 5px;
-	background-color: #F1D302;
+	background-color: #ccc5b9;
 	color: black; 
 }
 
 .extension {
 	padding-left: 20px;
 	padding-bottom: 30px;
+	align-self: center;
 }
 
 .mr {
@@ -190,4 +222,17 @@ img {
 .g {
 	max-width: 1000px;
 	box-shadow: 5px 5px black;
+}
+
+.row {
+	margin-left: 100px;
+	gap: 60px;
+}
+
+.text {
+	color: #778da9;
+	background-color: whitesmoke;
+	padding: 10px;
+	font-family: sans-serif;
+	border-radius: 50px;
 }

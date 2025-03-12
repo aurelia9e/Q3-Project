@@ -113,13 +113,13 @@ h5 {
 .container3{
 	background-color: whitesmoke;
 	margin-top: 10px;
+	margin-left: 20px;
 	padding-left: 20px;
 	padding-top: 10px;
 	color: #778da9;
 	align-content: center;
 	align-self: center;
 	box-shadow: -1px 1px 26px -4px rgba(59,42,15,0.75);
-
 }
 
 .color {
@@ -133,7 +133,7 @@ h5 {
 	max-width: 300px;
 	max-height: 150px;
 	margin-top: 20.5px;
-	border-radius: 30px;
+	border-radius: 2px;
 }
 
 .thin {
@@ -238,5 +238,12 @@ img {
 	border-radius: 50px;
 }
 
+h4 {
+	background-color: #ccc5b9;
+	margin-bottom: -20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 8px;
+}
 
 

@@ -129,10 +129,11 @@ h5 {
 .box {
 	background-color: #FFE347;
 	color: brown;
-	padding: 20px;
+	padding: 30px;
 	max-width: 300px;
 	max-height: 150px;
 	margin-top: 20.5px;
+	border-radius: 30px;
 }
 
 .thin {

@@ -129,7 +129,7 @@ h5 {
 .box {
 	background-color: #FFE347;
 	color: brown;
-	padding: 30px;
+	padding: 20px;
 	max-width: 300px;
 	max-height: 150px;
 	margin-top: 20.5px;
@@ -237,4 +237,6 @@ img {
 	font-family: sans-serif;
 	border-radius: 50px;
 }
+
+
 

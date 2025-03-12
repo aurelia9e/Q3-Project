@@ -34,24 +34,22 @@
           <div class="row">
         <h3>Login Page</h3>
         <hr>
-    		<h5>Email</h5>
-    		<form>
-    			<input type="email" placeholder="insert email" class="form-control">
-    			<br>
-    		<h5>First Name</h5>
-    			<input type="text" placeholder="full name" class="form-control">
-    			<br>
-    		<h5>Last Name</h5>
-    			<input type="text" placeholder="full name" class="form-control">
-    			<br>
-    		<h5>Phone Number</h5>
-    			<input type="text" placeholder="phone number" class="form-control">
-    			<br>
-    		<p>Comments</p>
-    		<textarea rows="5" cols="50" class="elp"></textarea>
-    		<br>
-    		<button type="submit" class="btn btn11">Submit</button>
-    		</form>
+    		<form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email" class="form-label">Email:</label>
+        <input ty pe="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd" class="form-label">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">LogIn</button>
+    </form>
           </div>
     	</div>
     </div>
